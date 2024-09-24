@@ -1,0 +1,37 @@
+.container {
+    position: relative;
+}
+  
+.nav-bar {
+    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-left: 10%;
+    z-index: 2; /* Ensure the nav bar is above the background */
+}
+  
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: text-shadow 0.3s ease;
+}
+  
+.nav-bar a.active {
+    color: #5692e8; 
+}
+  
+.nav-bar a:hover {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+  
+.main-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    margin-top: 20px;
+}

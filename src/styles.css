@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    background: linear-gradient(#081221, #03080f);
+    color: #c1d1e8;
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  h2, h4, .form-label, .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  
+  .card {
+    background-color: #0e1a2b !important;
+  }
+  
+  input, select, textarea {
+    background-color: #182c47 !important;
+    color: #c1d1e8 !important ;
+    border: none !important;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #c1d1e8 !important;
+  }
+  
+  .btn-primary {
+    background-color: #5692e8 !important ;
+    border-color: #5692e8 !important;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d !important;
+  }
+  

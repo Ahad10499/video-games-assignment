@@ -1,0 +1,13 @@
+<!-- main.component.html -->
+<div class="container">
+    <!-- Fixed Navigation Bar -->
+    <nav class="nav-bar">
+        <a routerLink="/video-games" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Video
+            Games</a>
+        <a routerLink="/contact" routerLinkActive="active">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <router-outlet></router-outlet>
+    </div>
+</div>

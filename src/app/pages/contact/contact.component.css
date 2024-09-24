@@ -1,0 +1,31 @@
+.ct-main{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 110px) !important;
+}
+.contact-form{
+    /* background-color: #c1d1e8 !important; */
+    /* padding: 5% !important; */
+}
+
+.contact-form .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #182c47 !important;
+    color: #c1d1e8 !important;
+    appearance: none;
+    background-clip: padding-box;
+    border: 1px solid #182c47  !important;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.contact-form button {
+    float: right;
+    border-radius: 0px;
+    padding: 2px 20px 2px;
+}
